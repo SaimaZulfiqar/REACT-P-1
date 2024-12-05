@@ -1,0 +1,53 @@
+/* src/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f8fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app {
+    max-width: 600px;
+    margin: 2rem auto;
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .tweet-input {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .tweet-input input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .tweet-input button {
+    background: #1da1f2;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .tweet-list {
+    margin-top: 1rem;
+  }
+  
+  .tweet {
+    background: #f1f1f1;
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+  }
+  
