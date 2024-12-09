@@ -16,6 +16,6 @@ const Tweet = ({ tweet }) => {
       <TweetInteractions likes={likes} onLike={handleLike} />
     </li>
   );
-};
+};s
 
 export default Tweet;

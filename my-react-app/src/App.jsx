@@ -1,11 +1,11 @@
-import React, { useContext } from 'react';
-import { AppContext } from './context/AppContext';
+import React, { useState, useEffect } from 'react';
+import { AppContext } from  './components/AppContext';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import Profile from './components/Profile';
 import TweetInput from './components/TweetInput';
 import TweetList from './components/TweetList';
-/*export const AppContext = createContext();*/
+/*import { AppContext } from “.components/AppContext";*/
 
 const App = () => {
   const [tweets, setTweets] = useState([]);
